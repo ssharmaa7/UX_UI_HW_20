@@ -1,0 +1,225 @@
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+  height: 500px;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#hero h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#about, #work, #contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about:hover {
+  text-decoration: underline 2px;
+}
+
+.portfolio-item {
+  margin: 20px 0;
+}
+
+.my-ux-skills {
+  background-color: #8C9086;
+  padding: 20px;
+}
+
+.h2 {
+  font-family: "Poly", sans-serif;
+  font-size: 92px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.skills-box {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  padding: 50px;
+}
+
+.skill-title {
+  font-family: "Poly", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.skill-desc {
+  font-family: "Poly", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Project section */
+.h3 {
+  font-family: "Poly", sans-serif;
+  font-size: 92px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 50px;
+}
+
+.project1,
+.project2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 50px;
+}
+
+.project1 {
+  grid-template-areas: "img text";
+}
+
+.project1 img {
+  grid-area: img;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-details1 {
+  grid-area: text;
+  padding: 30px;
+}
+
+.project2 {
+  grid-template-areas: "text img";
+}
+
+.project2 img {
+  grid-area: img;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-details2 {
+  grid-area: text;
+  padding: 30px;
+}
+
+.project-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.project-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+#bridges-img:hover,
+#calm-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Preloader */
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  background-color: white;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.preloader img {
+  animation: spin 3s linear infinite;
+  width: 150px;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(720deg);
+  }
+}
+
+.preloader p {
+  font-size: 24px;
+  font-family: "Megrim", sans-serif;
+  color: black;
+  margin: 0;
+}
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Additional custom styles */
+.jumbotron {
+  background-color: #e9ecef;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Your existing styles from before can go here */
